@@ -1,0 +1,3 @@
+# Page Scripts run through the userScripts API
+
+The model may return arbitrary JavaScript (a Page Script) besides CSS, and it runs through `chrome.userScripts` in the `USER_SCRIPT` world. Chrome Web Store policy forbids running remotely obtained code by any other means, including an interpreter for commands fetched as data, so a declarative set of DOM operations was rejected in favour of the documented API. Consequences: users must turn on "Allow User Scripts" for vibecheck (without it only CSS applies); the world's CSP blocks network access so a script steered by page content cannot exfiltrate it; and a script's effects cannot be undone in place, so replacing or removing one reloads the tab.

@@ -1,0 +1,43 @@
+{
+  "name": "vibecheck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that restyles any website from a prompt using the AI provider of your choice",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "prepare": "skills-npm"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "@effect/ai-anthropic": "4.1.2",
+    "@effect/ai-openai": "4.1.2",
+    "@effect/ai-openai-compat": "4.1.2",
+    "effect": "^4.1.2",
+    "lucide-react": "^1.68.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@effect/vitest": "^4.1.2",
+    "@tailwindcss/vite": "^4.3.4",
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "eslint-plugin-better-tailwindcss": "^4.10.0",
+    "fallow": "^3.39.0",
+    "playwright": "^1.64.1",
+    "skills-npm": "^4.1.0",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^7.0.2",
+    "vite-plus": "^1.5.0",
+    "vitest": "5.1.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0",
+    "vitest": "5.1.0"
+  },
+  "packageManager": "bun@1.4.4"
+}
