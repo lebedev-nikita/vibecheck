@@ -39,7 +39,7 @@ just e2e    # the built extension in Chrome for Testing against a mock provider
 just ci     # everything above plus code-health analysis
 ```
 
-`just package` zips `dist/` for the Chrome Web Store.
+`just package` zips `dist/` for the Chrome Web Store; the listing and privacy answers are in [docs/store-listing.md](docs/store-listing.md).
 
 ## How it works
 
