@@ -1,4 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#c026d3"/>
-  <text x="32" y="32" dy="0.35em" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#ffffff">V</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset=".5" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="30" fill="#fff4e6"/>
+  <path d="M33 36 C42 58 52 78 61 93 C70 76 84 53 97 34" fill="none" stroke="url(#stroke)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 82 C101 88 102 89 108 90 C102 91 101 92 100 98 C99 92 98 91 92 90 C98 89 99 88 100 82Z" fill="#8b5cf6"/>
 </svg>

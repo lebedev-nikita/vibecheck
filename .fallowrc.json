@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/fallow/schema.json",
+  "entry": [
+    "src/background/+background.ts",
+    "src/content/+content.ts",
+    "src/popup/+popup.tsx",
+    "src/options/+options.tsx",
+    "e2e/*.e2e.ts",
+    "scripts/+*.ts"
+  ]
+}

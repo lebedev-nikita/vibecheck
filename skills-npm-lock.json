@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "skills": {
+    "fallow": {
+      "package": "fallow",
+      "version": "3.39.0",
+      "skillPath": "skills/fallow/SKILL.md"
+    },
+    "fallow-setup": {
+      "package": "fallow",
+      "version": "3.39.0",
+      "skillPath": "skills/fallow-setup/SKILL.md"
+    }
+  }
+}
